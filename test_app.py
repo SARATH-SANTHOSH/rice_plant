@@ -6,6 +6,7 @@ import tensorflow as tf
 from tensorflow.keras.preprocessing import image
 import numpy as np
 import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 from werkzeug.utils import secure_filename
 
 # Initialize Flask app
